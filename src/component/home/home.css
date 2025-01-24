@@ -103,3 +103,34 @@
     font-size: 1rem;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 768px){
+    .info_wrapper{
+        flex-direction: column;
+        width:80%;
+    }
+
+    .search_container{
+        width: 80%;
+    }
+
+    .input::placeholder{
+        font-size: 0.899rem;
+
+    }
+
+    .info:nth-of-type(n+2){
+        border-left:0 ;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 475px){
+    .input::placeholder{
+        font-size: 0.599rem;
+    }
+
+    .info_wrapper{
+        gap:0.6rem
+    }
+}
