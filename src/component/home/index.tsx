@@ -22,7 +22,7 @@ export const Home = () => {
                 <strong>California, US</strong>
             </div>
             <div className="info">
-                <h2>tIMEZONE</h2>
+                <h2>Timezone</h2>
                 <strong>utc-08:00</strong>
             </div>
             <div className="info">
