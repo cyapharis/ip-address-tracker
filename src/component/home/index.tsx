@@ -1,3 +1,4 @@
+import { Map } from '../map';
 import './home.css';
 
 export const Home = () => {
@@ -30,5 +31,6 @@ export const Home = () => {
                 <strong>Google LLC</strong>
             </div>
         </div>
+        <Map/>
     </div>;
 }
